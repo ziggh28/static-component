@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Rating from './Rating'
+import Sidebar from './Sidebar'
+import Reviews from './Reviews'
+import Sentimentanalysis from './Sentimentanalysis';
+import Websitevisitors from './Websitevisitors'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    
+    <Websitevisitors className='websitevisitors'/>
+    
+    <Sentimentanalysis className='sentimentanalysis'/>
+    
+    <Reviews className='reviews'/>
+    
+    <Rating className="rating" />
+    
+    <Sidebar className="sidebar"/>
+  
+
   </React.StrictMode>,
+  
   document.getElementById('root')
 );
 

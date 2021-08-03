@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.sidebar {
+  position:fixed;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 20% ;
+  border: 2px solid gray;
+}
+.reviews {
+  position: fixed;
+  margin-left: 25%;
+  border: 2px solid gray;
+  height: 25% ;
+  width: 20% ;
+}
+.rating {
+  position: fixed;
+  margin-left: 50%;
+  border: 2px solid gray;
+  height: 25% ;
+  width: 20% ;
+}
+.sentimentanalysis {
+  position: fixed;
+  margin-left: 75%;
+  border: 2px solid gray;
+  height: 25% ;
+  width: 20% ;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+li {
+  list-style: none;
+  text-align: center;
+}
+.websitevisitors {
+  position: fixed ;
+  margin-left: 25%;
+  margin-top: 30vh;
+  border: 2px solid gray;
+  height: 65% ;
+  width: 75% ;
+}
+.websitevisitorText {
+  text-align: start;
+  margin-left: 5%;
+}
+.websitevisitorDiv {
+  padding: 5em ;
+  margin: 5em ;
+  width: 25em;
+  height: 10em;
+  border: 5px solid black;
+  background-color: black;
+}
